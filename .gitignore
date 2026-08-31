@@ -1,0 +1,19 @@
+.DS_Store
+.idea/
+build/
+cmake-build-*/
+
+# Local test and generated artifacts
+tmp/
+output/
+*.log
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+secrets.h
+app_secrets.h
+
+# ESP8266 / MQTT local credentials (v0.5.0) — commit network_config.example.h only
+app/config/network_config.h
